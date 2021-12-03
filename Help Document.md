@@ -15,24 +15,24 @@ To convert code cell to markdown/text cell, press Ctrl+M+Y
 
 Packages/Library used:
 
-1) Tensorflow library
+1) Tensorflow library  
 free and open-source software library for machine learning and artificial intelligence.
 
-2) Keras library from tensorflow
+2) Keras library from tensorflow  
 Keras is an open-source software library that provides a Python interface for artificial neural networks. 
 Keras acts as an interface for the TensorFlow library. We use Keras library to preprocess the text and form tokens using the Tokenizer class.
 We are also using the Pad Sequences class to ensure all sequences have the same dimensions.
 
-3) json package
+3) json package  
 This package is used to work with the any data that is in json format. This package is included to work with the dataset that is in json format.
 
-4) Numpy library
+4) Numpy library  
 NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays.
 Using NumPy, mathematical and logical operations on arrays can be performed. 
 We use NumPy to create arrays for padded sequences for the sentences in the data set.
 
-5) Matplotlib library
+5) Matplotlib library  
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. 
-We have used matplotlib to plot 2 graphs: 
-(i) the accuracy between test and train data set
+We have used matplotlib to plot 2 graphs:  
+(i) the accuracy between test and train data set  
 (ii) loss between test and train data set
