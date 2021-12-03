@@ -1,4 +1,4 @@
-Help Document - describes how to execute code and packages used
+#Help Document - describes how to execute code and packages used
 
 We used the Google Colab to write code, and execute the code. To execute the code we initially connect to a hosted runtime.
 To run the complete code file, goto Runtime -> Run All
@@ -30,3 +30,9 @@ This package is used to work with the any data that is in json format. This pack
 NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays.
 Using NumPy, mathematical and logical operations on arrays can be performed. 
 We use NumPy to create arrays for padded sequences for the sentences in the data set.
+
+5) Matplotlib library
+Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. 
+We have used matplotlib to plot 2 graphs: 
+(i) the accuracy between test and train data set
+(ii) loss between test and train data set
