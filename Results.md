@@ -12,9 +12,11 @@ The accuracy of the classifier over 30 epochs on test data is 0.8106 which is ap
 
  ![Model loss](https://github.com/Apptrixie/NLP_using_tensorflow/blob/main/model%20loss.png)
  
-  ![Model accuracy](https://github.com/Apptrixie/NLP_using_tensorflow/blob/main/model%20accuracy.png)
+ ![Model accuracy](https://github.com/Apptrixie/NLP_using_tensorflow/blob/main/model%20accuracy.png)
 
-We see that val_loss(test)  starts increasing, val_acc(test) starts decreasing. This means model is cramming values not learning. 
+We see that val_loss(test)  starts increasing, val_acc(test) starts decreasing. This means model is cramming values not learning.  
+
+We also see that the classifier is able to predict sentiment for new sentences too.
 ________________________________________
 There are following situations that can be encountered given a classifier:
 1.	val_loss starts increasing, val_acc starts decreasing. This means model is cramming values not learning
