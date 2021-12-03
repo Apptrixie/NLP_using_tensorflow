@@ -1,0 +1,15 @@
+Help Document - describes how to execute code and packages used
+
+We used the Google Colab to write code, and execute the code. To execute the code we initially connect to a hosted runtime.
+To run the complete code file, goto Runtime -> Run All
+
+---
+
+Google Colab shortcuts
+
+To run a given code cell, press Ctrl+Enter
+To convert to markdown/text cells, press Ctrl+M
+To convert code cell to markdown/text cell, press Ctrl+M+Y
+
+---
+
